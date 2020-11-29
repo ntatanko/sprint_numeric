@@ -1,14 +1,16 @@
 {
 
-    // Code Formatter Preferences
-    // Preferences for this plugin
-    "preferences": {
+      "preferences": {
         "default_formatter": {
             "python": [
                 "yapf",
                 "isort"
             ]
         }
+    },
+        
+    "yapf": {
+        "style_config": "google"
     }
 
 }
